@@ -17,7 +17,7 @@ const Login = ({loggedIn, setLoggedIn}) => {
  
   }
   return (
-    <div className='w-full  bg-DarkBlue  flex flex-col  '>
+    <div className='w-full  bg-DarkBlue  flex flex-col z-50 '>
 
       <img src={logo} className="mx-auto my-14 " />
 
