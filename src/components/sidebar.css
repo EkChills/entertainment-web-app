@@ -1,0 +1,9 @@
+.svgs > svg {
+  fill:#5A698F;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+
+.svgs > svg:hover {
+  fill: #FC4747;
+}

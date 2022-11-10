@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit;
+}
+
+@media (min-width:768px){
+  .sidebar {
+    justify-content: unset;
+  }
+}
