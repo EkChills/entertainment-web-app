@@ -2,10 +2,10 @@ import { Outlet } from "react-router-dom";
 import SideBar from "../components/SideBar";
 import React from 'react'
 
-const SharedLayout = () => {
+const SharedLayout = ({loggedIn}) => {
   return (
     <>
-      <SideBar />
+      {loggedIn && <SideBar />}
       <Outlet />
     </>
   )

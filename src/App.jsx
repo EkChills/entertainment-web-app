@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Login from './pages/Login'
+import Signup from './pages/Signup'
 import SideBar from './components/SideBar'
 import Home from './pages/Home'
 import { AppProvider } from './store/Context'
@@ -32,8 +33,8 @@ const App = () => {
       <AppProvider>
         <Routes>
 
-          <Route path="/" element={<SharedLayout />} >
-            <Route index element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
+          <Route path="/" element={<SharedLayout loggedIn={loggedIn} />} >
+            <Route index element={loggedIn ? <Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} /> : <Signup loggedIn={loggedIn} setLoggedIn={setLoggedIn} />} />
             <Route path='/Home' element={<ProtectedRoute loggedIn={loggedIn}>
               <Home />
             </ProtectedRoute>} />
