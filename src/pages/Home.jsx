@@ -9,7 +9,7 @@ import Recommended from '../components/Recommended'
 const Home = () => {
   return (
     <div className='min-h-[100vh] w-full bg-DarkBlue'>
-      <main className='container mx-auto pt-20 px-3 md:pl-[4.5rem] md:pt-10 overflow-hidden '>
+      <main className='container mx-auto pt-20 px-3 md:pl-[4.5rem] lg:pl-[8rem] md:pt-10 overflow-hidden '>
         <Search >Search for movies or Tv series</Search>
         <Trending />
         <Recommended />
