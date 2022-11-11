@@ -7,3 +7,11 @@
 .svgs > svg:hover {
   fill: #FC4747;
 }
+
+.first-nav > svg {
+  fill: white;
+}
+
+.last-nav > svg {
+  fill: #5A698F;
+}

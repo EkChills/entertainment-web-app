@@ -43,7 +43,7 @@ const Signup = ({loggedIn, setLoggedIn}) => {
   return (
     <div className='w-full min-h-[100vh] bg-DarkBlue flex flex-col justify-center items-center'>
 
-      <img src={logo} className="mx-auto my-14 " />
+      <img src={logo} className="mx-auto my-10 " />
       <form className='w-full container mx-auto px-5 ' onSubmit={onSubmitHandler} >
       <div className="card mx-auto p-4 flex flex-col space-y-4 min-w-[20rem] max-w-[26rem] bg-SemiDarkBlue py-8">
         <h3 className='text-3xl text-PureWhite mb-4'>Sign Up</h3>
